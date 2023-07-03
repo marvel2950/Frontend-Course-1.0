@@ -1,0 +1,42 @@
+h3{
+    color:green;
+}
+
+h1{
+    /* color:purple; */
+    font-size: small;
+}
+
+/* ID -> # */
+#heading2{
+    color: blue;
+}
+
+/* Class -> . */
+.textdiv{
+    color:brown;
+}
+
+#heading2, .textdiv{
+    font-size: xx-large;
+}
+
+#pxdemo{
+    font-size: 32px;
+}
+
+/* #pxdemo2{
+    font-size: 20px;
+} */
+
+body{
+    font-size: 20px;;
+}
+
+#emdemo{
+    font-size: 1em;
+}
+
+#emdemo2{
+    font-size: 2em; /* 1em = 28px; */
+}
