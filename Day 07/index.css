@@ -1,0 +1,55 @@
+
+
+#cat{
+    /* min-height: 1000px; */
+    max-height: 1000px;
+
+    min-width: 300px;
+    max-width:300px;
+}
+
+#rgbcolor{
+    /* color: red; */
+    /* color:rgb(255, 0, 0); */
+    color:#ff0000;
+}
+
+#color2{
+    background-color: #ff0000;
+}
+
+#shadow{
+    text-shadow: 10px 2px orange;
+}
+
+#text1{
+    text-align: left;;
+}
+#text2{
+    text-align: center;;
+}
+#text3{
+    text-align: right;;
+}
+
+
+#text4{
+    vertical-align: baseline;
+}
+#text5{
+    vertical-align: top;
+}
+#text6{
+    vertical-align: bottom;
+}
+#text7{
+    vertical-align: middle;
+}
+
+#textdecoration{
+    text-decoration: overline;
+}
+
+#texttra{
+    text-transform: capitalize;
+}
