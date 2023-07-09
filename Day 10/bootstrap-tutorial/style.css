@@ -1,0 +1,24 @@
+@media (min-width: 992px)
+{
+    .col-lg-2
+    {
+        color:green;
+    }
+}
+
+.nav-link
+{
+    color:white !important;
+}
+
+.accordion-body
+{
+    color:white;
+    background-color:red;
+}
+
+.item3
+{
+    background-color:green;
+
+}
