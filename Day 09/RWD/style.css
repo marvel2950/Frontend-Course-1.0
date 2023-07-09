@@ -1,0 +1,35 @@
+.item
+{
+    color:white;
+    font-size:36px;
+    background-color:red;
+    display:none;
+}
+
+@media (max-width:500px)
+{
+    #item2
+    {
+        display:block;
+        background-color:yellow;
+    }
+}
+
+@media  only screen and (max-width:500px)
+{
+    #item2
+    {
+        display:block;
+        background-color:yellow;
+    }
+}
+
+
+@media only screen and (orientation:portrait)
+{
+    #item1
+    {
+        display:block;
+        background-color:blueviolet;
+    }
+}
