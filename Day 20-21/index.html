@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <div>Expense Tracker</div>
+    <div class="add-expense">
+      <div>Add Expense</div>
+      <select class="input-type">
+        <option value="cash" default>Cash</option>
+        <option value="credit card">Credit card</option>
+        <option value="upi">UPI</option>
+        <option value="debit card">Debit Card</option>
+      </select>
+      <input
+        class="input-expense-name"
+        type="text"
+        placeholder="Enter Name.."
+      />
+      <input class="input-amount" type="number" placeholder="Enter Amount" />
+      <button id="submit">Submit</button>
+    </div>
+    <div class="show-expense">
+      <div>Expenses</div>
+      <div class="show-expense-header">
+        <div class="cell">Name</div>
+        <div class="cell">Amount</div>
+        <div class="cell">Type</div>
+        <div class="cell">Delete</div>
+      </div>
+      <div class="show-expense-table"></div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

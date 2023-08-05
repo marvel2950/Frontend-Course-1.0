@@ -1,0 +1,38 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.show-expense{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.show-expense-header{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    border: 2px solid black;
+    width: 360px;
+    background-color: bisque;
+}
+
+.cell{
+    width: 80px;
+}
+
+.show-expense-table{
+    display: flex;
+    flex-direction: column;   
+}
+
+.show-expense-item{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    border: 1px solid black;
+    border-top: 0px;
+    width: 360px;
+}

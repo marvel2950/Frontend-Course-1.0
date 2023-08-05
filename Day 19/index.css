@@ -1,0 +1,22 @@
+.body{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+.heading{
+    font-size: 24px;
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.color{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
